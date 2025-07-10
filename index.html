@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar conatiner">
+        <div class="logo">Praneetha</div>
+        <ul class="nav-links">
+          <li><a href="#Home">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="left-content">
+        <!-- Left Content (Text, Social Icons, Buttons) -->
+        <div class="matter">
+          <h1>
+            Hello,<br />
+            This is <span>Praneetha Ravuri</span>,<br />I'm a
+            <span class="ps">Professional Software</span><br />
+            Developer.
+          </h1>
+
+          <!-- Social Media Icons -->
+          <div class="icons">
+            <a href="#"><i class="fab fa-github text-3xl"></i></a>
+            <a href="#"><i class="fab fa-linkedin text-3xl"></i></a>
+            <a href="#"><i class="fab fa-facebook text-3xl"></i></a>
+            <a href="#"><i class="fab fa-twitter text-3xl"></i></a>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="Buttons">
+            <a href="#contact" class="cnt">
+              CONTACT ME <i class="fas fa-envelope ml-2"></i>
+            </a>
+            <a href="#Resume" class="res">
+              GET RESUME <i class="fas fa-download ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Content (Code Editor Mockup) -->
+        <div class="right-content">
+          <div class="code-window">
+            <div class="code-header">
+              <div class="dot red-dot"></div>
+              <div class="dot yellow-dot"></div>
+              <div class="dot green-dot"></div>
+            </div>
+            <pre><code>
+<span class="keyword">const</span> <span class="function">coder</span> = {
+  <span class="property">name</span>: <span class="string">'Abu Said'</span>,
+  <span class="property">skills</span>: [
+    <span class="string">'Express'</span>, <span class="string">'NestJS'</span>, <span class="string">'MySQL'</span>,
+  ],
+  <span class="property">hardWorker</span>: <span class="boolean">true</span>,
+  <span class="property">quickLearner</span>: <span class="boolean">true</span>,
+  <span class="property">problemSolver</span>: <span class="boolean">true</span>,
+  <span class="property">hireable</span>: <span class="keyword">function</span>() {
+    <span class="keyword">return</span> (
+      <span class="keyword">this</span>.<span class="property">hardWorker</span> &&
+      <span class="keyword">this</span>.<span class="property">problemSolver</span> &&
+      <span class="keyword">this</span>.<span class="property">skills</span>.<span class="property">length</span> >= <span class="number">5</span>
+    );
+  }
+};
+            </code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-content-wrapper">
+        <div class="about-me-vertical-text">ABOUT ME</div>
+        <div class="about-text-column">
+          <div class="about-h">WHO AM I?</div>
+          <p>
+            Hi, I'm Praneetha, a third-year BSc Computer Science student at SRM
+            University AP. I have a strong passion for coding, web development,
+            and ethical hacking. I enjoy exploring new technologies, solving
+            problems through code, and continuously expanding my skill set.
+            Whether it's developing websites, understanding cybersecurity, or
+            diving into new programming languages, I'm always eager to learn and
+            grow.
+          </p>
+        </div>
+        <div class="about-image-column">
+          <img
+            src="images/portfolio_img.jpg"
+            alt="My image"
+            class="my-image"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="skills">My Skills</section>
+    <section id="projects">Projects</section>
+    <section id="contact">Contact Me</section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
